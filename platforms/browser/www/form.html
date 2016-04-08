@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <title>Pothole Finder</title>
+</head>
+
+    <body>
+    <nav class="navbar">
+    </nav>
+    <div class="app" align="center">
+        <p class="title">
+            Source Coordinates
+        </p>
+        <input type="tel" id="sourcelat" placeholder="Latitude" required>
+        <input type="tel" id="sourcelong" placeholder="Longitude" required>
+        <p class="title">
+            Destination Coordinates
+        </p>
+         <input type="tel" id="destlat" placeholder="Latitude" required>
+         <input type="tel" id="destlong" placeholder="Longitude" required>
+         <button class="btn" id="datasubn" type="button"><span>Search</span></button>
+
+</div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+</body>
+
+</html>
