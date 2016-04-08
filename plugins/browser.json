@@ -1,0 +1,73 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.kermit.potholefinder"
+        }
+    }
+}
