@@ -1,13 +1,15 @@
-$(document).ready(function(){
-    $("#datasubn").click(function(){
-        var sourceLat = $('#sourcelat').val();
-        var sourceLong = $('#sourcelong').val();
-        var destLong = $('#destlong').val();
-        var destLong = $('#destlong').val();
-        $.get( "http://192.168.2.5:3000", { sourcelat: sourceLat, sourcelong: sourceLong,
-            destlong: destLong, destlong: destLong}, function(data) {
-                sessionStorage.setItem("coordinates", data);
-                window.location.href = "display.html";
-            });
-    });
-});
+function timeOut(){
+    setTimeout(function() {
+        window.location.href = "form.html";
+    }, 3000);
+}
+
+var app = {
+    initialize: function() {this.onDeviceReady()},
+    bindEvents: function() {var y = 0},
+    onDeviceReady: function() {
+        timeOut();
+    }
+};
+
+app.initialize();
