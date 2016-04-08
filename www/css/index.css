@@ -1,6 +1,9 @@
 body {
   background: #DB7769;
 }
+h2 {
+    color: white;
+}
 
 #loader {
   -webkit-animation: loader 5s cubic-bezier(.8,0,.2,1) infinite;
